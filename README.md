@@ -52,7 +52,7 @@ For helps on GenTree CLI options, uses
 ## Experiment data
 - `exp-data/{ls, cat, ...}`: GenTree's outputs (11 runs for each program), and optionally a `full.txt` file containing the results generated using all configuration space.
 - `exp-data/Analyze/{stat, mcc, cmin, stat_full}`: aggregated experiment data that is used to fill in tables in the paper
-  + `stat`: Table 3. GenTree’s results for the benchmark programs shown 
+  + `stat`: Table 3. GenTree’s results for the benchmark programs 
   + `mcc`: Table 4. Comparing GenTree to exhaustive runs
   + `cmin`: Table 6. Minimal Configurations
   + `stat_full`: Table 7. Comparing GenTree to iGen.
