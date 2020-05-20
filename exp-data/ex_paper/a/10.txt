@@ -1,0 +1,82 @@
+# ./igen4_debug -J2 -cx -BF @ex_paper -O res/ex_paper/a/{i}.txt --rep 11
+# seed = 133, repeat_id = 10, thread_id = 0
+#      288    9    9 |     0    -1 | 10    6 |     0     0      0 | ecaa2463df5339a6135a9df4a99b24bf
+======
+# M/H: 0 / 317
+# Last rebuild:   iter 1  num_configs 3
+L0, 
+-
+true
+-
+H
+======
+# M/H: 153 / 164
+# Last rebuild:   iter 2  num_configs 33
+L1, 
+-
+(or (= a |1|) (= b |2|))
+-
+5 6 MMHH 6 MMH
+======
+# M/H: 242 / 87
+# Last rebuild:   iter 1  num_configs 15
+L3, 
+-
+(and (= u |1|) (= v |1|))
+-
+3 M 4 MH
+======
+# M/H: 88 / 245
+# Last rebuild:   iter 1  num_configs 18
+L4, 
+-
+(or (= u |0|) (= v |0|))
+-
+3 H 4 HM
+======
+# M/H: 140 / 213
+# Last rebuild:   iter 3  num_configs 96
+L6, 
+-
+(or (and (= s |0|) (or (= u |0|) (= v |0|)))
+    (and (= e |1|) (or (= u |0|) (= v |0|)))
+    (and (= e |0|) (or (= u |0|) (= v |0|))))
+-
+1 4 H 3 HM 0 3 H 4 HM 4 H 3 HMM
+======
+# M/H: 311 / 54
+# Last rebuild:   iter 3  num_configs 108
+L7, 
+-
+(and (= s |0|) (= e |2|) (or (= u |0|) (= v |0|)))
+-
+1 0 MM 3 H 4 HMM
+======
+# M/H: 270 / 37
+# Last rebuild:   iter 4  num_configs 132
+L2, 
+-
+(let ((a!1 (or (and (= b |0|) (or (= a |0|) (= a |2|)))
+               (and (= b |1|) (or (= a |0|) (= a |2|))))))
+  (and (= d |1|) (= c |0|) a!1))
+-
+8 M 7 6 5 HMH 5 HMHMMMM
+======
+# M/H: 271 / 61
+# Last rebuild:   iter 2  num_configs 48
+L5, 
+-
+(and (= e |2|) (= s |1|) (or (= u |0|) (= v |0|)))
+-
+0 MM 1 M 4 H 3 HM
+======
+# M/H: 342 / 44
+# Last rebuild:   iter 3  num_configs 129
+L8, 
+-
+(and (= s |0|)
+     (= e |2|)
+     (or (and (= u |0|) (= v |1|)) (and (= u |1|) (= v |0|))))
+-
+1 0 MM 3 4 MH 4 HMM
+======

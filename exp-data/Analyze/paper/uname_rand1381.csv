@@ -1,0 +1,16 @@
+_repeat_id,_thread_id,avg_f,avg_mcc,cnt_exact,cnt_interactions,cnt_wrong,delta_locs,n_configs,wrong_locs
+0,3,0.987312,0.977852,23,27,4,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 ,
+1,9,0.977519,0.962633,22,27,5,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 uname.c:290 ,
+2,6,0.987340,0.977891,22,27,5,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 uname.c:290 ,
+3,2,0.987377,0.977940,22,27,5,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 uname.c:290 ,
+4,1,0.977445,0.962536,22,27,5,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 uname.c:290 ,
+5,0,0.962648,0.925525,22,27,5,-1,1381,uname.c:165 uname.c:202 !uname.c:278 uname.c:286 uname.c:290 ,
+6,4,0.999693,0.999599,25,27,2,0,1381,uname.c:165 uname.c:290 ,
+7,10,0.977387,0.962467,22,27,5,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 uname.c:290 ,
+8,7,0.962649,0.925526,22,27,5,-1,1381,uname.c:165 uname.c:202 !uname.c:278 uname.c:286 uname.c:290 ,
+9,8,0.987133,0.977627,22,27,5,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 uname.c:290 ,
+10,5,0.987376,0.977940,22,27,5,0,1381,uname.c:165 uname.c:202 uname.c:278 uname.c:286 uname.c:290 ,
+
+MED,5,0.987133,0.977627,22,27,5,0,1381,nan,
+SIR,3,0.00499481,0.00773616,0,0,0,0,0,nan,
+MEAN,5,0.981262,0.96614,22.3636,27,4.63636,-0.181818,1381,nan,

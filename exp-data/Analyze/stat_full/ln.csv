@@ -1,0 +1,6 @@
+_repeat_id,_thread_id,n_configs,n_locs,t_search,t_total,cnt_singular,cnt_and,cnt_or,cnt_mixed,cnt_pure,cnt_mix_ok,cnt_mix_fail,cnt_total,hash,iter,n_cache_hit,n_locs_total,n_locs_uniq,repeat_id,t_runner,t_runner_total
+0,0,10240,171,0,0,10,7,3,5,20,3,2,25,6b50d30ca57e16e0e942da6a7090592d,1,10240,-1,25,10,0,0,
+
+MED,0,10240,171,0,0,10,7,3,5,20,3,2,25,nan,1,10240,-1,25,10,0,0,
+SIR,0,0,0,0,0,0,0,0,0,0,0,0,0,nan,0,0,0,0,0,0,0,
+MEAN,0,10240,171,0,0,10,7,3,5,20,3,2,25,nan,1,10240,-1,25,10,0,0,

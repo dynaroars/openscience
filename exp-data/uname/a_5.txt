@@ -1,0 +1,280 @@
+# ./igen4 -J2 -crwx -GF 2/uname --rep 11 -O res/uname/a_{i}.txt -j10 --rep-para 4
+# seed = 128, repeat_id = 5, thread_id = 2
+#     1101   99   27 |  3156   114 |  5   16 |     0     0      3 | 63aac3fab45c0cc0bd07c695fa2ba742
+======
+# M/H: 646 / 506
+# Last rebuild:   iter 1  num_configs 6
+system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, uname.c:115, uname.c:117, uname.c:121, uname.c:123, uname.c:125, uname.c:134, uname.c:150, uname.c:151, uname.c:152, uname.c:154, uname.c:240, 
+-
+(= --help on)
+-
+9 HM
+======
+# M/H: 0 / 1145
+# Last rebuild:   iter 1  num_configs 8
+uname.c:175, uname.c:178, uname.c:180, uname.c:199, uname.c:260, uname.c:265, uname.c:268, uname.c:269, uname.c:273, uname.c:275, 
+-
+true
+-
+H
+======
+# M/H: 1 / 1135
+# Last rebuild:   iter 8  num_configs 226
+uname.c:202, 
+-
+(or (= -a on)
+    (= -s on)
+    (= -n on)
+    (= -r on)
+    (= -v on)
+    (= -m on)
+    (= -p on)
+    (= -i on)
+    (= -o on)
+    (= --help on)
+    (= --version on))
+-
+8 H 1 H 0 H 5 H 3 H 2 H 6 H 9 H 4 H 7 H 10 HM
+======
+# M/H: 630 / 526
+# Last rebuild:   iter 2  num_configs 30
+uname.c:204, uname.c:205, uname.c:206, 
+-
+(= -a on)
+-
+0 HM
+======
+# M/H: 613 / 545
+# Last rebuild:   iter 2  num_configs 32
+uname.c:208, uname.c:209, uname.c:210, 
+-
+(= -s on)
+-
+1 HM
+======
+# M/H: 592 / 569
+# Last rebuild:   iter 2  num_configs 34
+uname.c:212, uname.c:213, uname.c:214, 
+-
+(= -n on)
+-
+2 HM
+======
+# M/H: 588 / 576
+# Last rebuild:   iter 2  num_configs 36
+uname.c:220, uname.c:221, uname.c:222, 
+-
+(= -v on)
+-
+4 HM
+======
+# M/H: 589 / 577
+# Last rebuild:   iter 2  num_configs 38
+uname.c:232, uname.c:233, uname.c:234, 
+-
+(= -i on)
+-
+7 HM
+======
+# M/H: 602 / 567
+# Last rebuild:   iter 2  num_configs 40
+uname.c:236, uname.c:237, uname.c:238, 
+-
+(= -o on)
+-
+8 HM
+======
+# M/H: 597 / 558
+# Last rebuild:   iter 1  num_configs 10
+uname.c:216, uname.c:217, uname.c:218, 
+-
+(= -r on)
+-
+3 HM
+======
+# M/H: 613 / 560
+# Last rebuild:   iter 2  num_configs 42
+uname.c:224, uname.c:225, uname.c:226, 
+-
+(= -m on)
+-
+5 HM
+======
+# M/H: 588 / 585
+# Last rebuild:   iter 2  num_configs 44
+uname.c:228, uname.c:229, uname.c:230, 
+-
+(= -p on)
+-
+6 HM
+======
+# M/H: 909 / 268
+# Last rebuild:   iter 2  num_configs 47
+uname.c:242, 
+-
+(and (= --help off) (= --version on))
+-
+9 M 10 HM
+======
+# M/H: 779 / 400
+# Last rebuild:   iter 2  num_configs 49
+uname.c:161, uname.c:164, uname.c:166, uname.c:167, uname.c:168, uname.c:250, uname.c:256, uname.c:277, uname.c:280, uname.c:281, uname.c:301, uname.c:345, uname.c:370, uname.c:373, uname.c:375, 
+-
+(and (= --help off) (= --version off))
+-
+9 M 10 MH
+======
+# M/H: 732 / 384
+# Last rebuild:   iter 14  num_configs 774
+uname.c:165, 
+-
+(let ((a!1 (or (= -a on)
+               (and (= -i on)
+                    (or (= -s on)
+                        (= -n on)
+                        (= -r on)
+                        (= -m on)
+                        (= -p on)
+                        (= -o on)))
+               (and (= -r on)
+                    (or (= -s on) (= -n on) (= -m on) (= -p on) (= -o on)))
+               (and (= -v on)
+                    (or (= -s on)
+                        (= -n on)
+                        (= -r on)
+                        (= -m on)
+                        (= -p on)
+                        (= -i on)
+                        (= -o on)))
+               (and (= -n on) (or (= -m on) (= -o on)))
+               (and (= -m on) (= -o on))
+               (and (= -p on) (or (= -n on) (= -m on) (= -o on)))
+               (and (= -s on) (or (= -n on) (= -m on) (= -p on) (= -o on))))))
+  (and (= --help off) (= --version off) a!1))
+-
+9 M 10 M 0 H 4 5 H 6 H 2 H 8 H 3 H 1 H 7 HM 7 6 H 1 H 2 H 3 H 5 H 8 HM 3 2 H 6 H 5 H 1 H 8 HM 1 6 H 8 H 2 H 5 HM 6 8 H 2 H 5 HM 2 5 H 8 HM 5 8 HMM
+======
+# M/H: 746 / 401
+# Last rebuild:   iter 6  num_configs 205
+uname.c:286, uname.c:289, uname.c:291, uname.c:293, uname.c:295, uname.c:297, 
+-
+(and (= --help off)
+     (= --version off)
+     (or (= -a on)
+         (= -s on)
+         (= -n on)
+         (= -r on)
+         (= -v on)
+         (= -m on)
+         (and (= -p off) (= -i off) (= -o off))))
+-
+9 M 10 M 5 H 1 H 0 H 4 H 3 H 2 H 6 M 7 M 8 MH
+======
+# M/H: 874 / 283
+# Last rebuild:   iter 6  num_configs 211
+uname.c:290, 
+-
+(and (= --help off)
+     (= --version off)
+     (or (= -a on)
+         (= -s on)
+         (and (= -o off)
+              (= -i off)
+              (= -n off)
+              (= -r off)
+              (= -v off)
+              (= -m off)
+              (= -p off))))
+-
+9 M 10 M 1 H 0 H 8 M 7 M 2 M 3 M 4 M 5 M 6 MH
+======
+# M/H: 931 / 299
+# Last rebuild:   iter 3  num_configs 149
+uname.c:292, 
+-
+(and (= --version off) (= --help off) (or (= -a on) (= -n on)))
+-
+10 M 9 M 0 H 2 HM
+======
+# M/H: 933 / 302
+# Last rebuild:   iter 3  num_configs 151
+uname.c:294, 
+-
+(and (= --version off) (= --help off) (or (= -a on) (= -r on)))
+-
+10 M 9 M 0 H 3 HM
+======
+# M/H: 926 / 308
+# Last rebuild:   iter 3  num_configs 154
+uname.c:296, 
+-
+(and (= --version off) (= --help off) (or (= -a on) (= -v on)))
+-
+10 M 9 M 4 H 0 HM
+======
+# M/H: 921 / 314
+# Last rebuild:   iter 3  num_configs 156
+uname.c:298, 
+-
+(and (= --version off) (= --help off) (or (= -a on) (= -m on)))
+-
+10 M 9 M 5 H 0 HM
+======
+# M/H: 929 / 309
+# Last rebuild:   iter 3  num_configs 158
+uname.c:303, uname.c:341, 
+-
+(and (= --version off) (= --help off) (or (= -a on) (= -p on)))
+-
+10 M 9 M 0 H 6 HM
+======
+# M/H: 924 / 317
+# Last rebuild:   iter 3  num_configs 160
+uname.c:347, uname.c:366, 
+-
+(and (= --version off) (= --help off) (or (= -a on) (= -i on)))
+-
+10 M 9 M 7 H 0 HM
+======
+# M/H: 925 / 317
+# Last rebuild:   iter 3  num_configs 162
+uname.c:371, 
+-
+(and (= --version off) (= --help off) (or (= -a on) (= -o on)))
+-
+10 M 9 M 8 H 0 HM
+======
+# M/H: 1028 / 108
+# Last rebuild:   iter 4  num_configs 166
+uname.c:342, 
+-
+(and (= -a off) (= -p on) (= --version off) (= --help off))
+-
+0 M 6 10 M 9 MHM
+======
+# M/H: 1124 / 120
+# Last rebuild:   iter 3  num_configs 164
+uname.c:367, 
+-
+(and (= -a off) (= -i on) (= --version off) (= --help off))
+-
+0 M 7 10 M 9 MHM
+======
+# M/H: 1137 / 1
+# Last rebuild:   iter 8  num_configs 228
+uname.c:278, 
+-
+(and (= -o off)
+     (= -s off)
+     (= -i off)
+     (= -a off)
+     (= -m off)
+     (= -n off)
+     (= -r off)
+     (= -v off)
+     (= --help off)
+     (= -p off)
+     (= --version off))
+-
+8 M 1 M 7 M 0 M 5 M 2 M 3 M 4 M 9 M 6 M 10 MH
+======

@@ -1,0 +1,240 @@
+# ./igen4 -J2 -crwx -GF 2/mv --rep 11 -O res/mv/a_{i}.txt -j10 --rep-para 4
+# seed = 128, repeat_id = 5, thread_id = 1
+#     2935  167   21 | 22544   229 |  5   11 |     0     0     14 | dec6c10b31612ffe9c7aa20e43994ac6
+======
+# M/H: 0 / 3088
+# Last rebuild:   iter 1  num_configs 5
+mv.c:107, mv.c:109, mv.c:111, mv.c:112, mv.c:113, mv.c:114, mv.c:115, mv.c:116, mv.c:117, mv.c:118, mv.c:119, mv.c:120, mv.c:121, mv.c:122, mv.c:123, mv.c:124, mv.c:125, mv.c:126, mv.c:127, mv.c:128, mv.c:129, mv.c:130, mv.c:131, mv.c:132, mv.c:133, mv.c:134, mv.c:135, mv.c:136, mv.c:137, mv.c:138, mv.c:139, mv.c:140, mv.c:142, mv.c:143, mv.c:144, mv.c:145, mv.c:146, mv.c:147, mv.c:337, mv.c:341, mv.c:342, mv.c:343, mv.c:345, mv.c:346, mv.c:349, mv.c:352, mv.c:353, mv.c:357, mv.c:359, mv.c:362, mv.c:364, 
+-
+true
+-
+H
+======
+# M/H: 1219 / 1881
+# Last rebuild:   iter 3  num_configs 419
+mv.c:286, mv.c:288, mv.c:333, 
+-
+(or (= --help on)
+    (and (= -n on)
+         (= --version off)
+         (or (= --backup none)
+             (= --backup numbered)
+             (= --backup existing)
+             (= --backup simple)
+             (= -b on))))
+-
+9 H 4 10 M 0 1 HMHHHHM
+======
+# M/H: 1632 / 1473
+# Last rebuild:   iter 2  num_configs 228
+mv.c:292, mv.c:298, mv.c:302, mv.c:304, mv.c:313, mv.c:318, mv.c:328, mv.c:329, mv.c:330, mv.c:331, mv.c:423, system.h:588, system.h:590, system.h:593, system.h:616, system.h:618, system.h:625, system.h:631, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
+-
+(= --help on)
+-
+9 HM
+======
+# M/H: 1 / 3309
+# Last rebuild:   iter 11  num_configs 2925
+mv.c:367, 
+-
+(or (= --backup none)
+    (= --backup numbered)
+    (= --backup existing)
+    (= --backup simple)
+    (= -b on)
+    (= -f on)
+    (= -i on)
+    (= -n on)
+    (= --strip-trailing-slashes on)
+    (= -u on)
+    (= -v on)
+    (= -Z on)
+    (= --help on)
+    (= --version on))
+-
+7 H 3 H 8 H 1 H 6 H 5 H 0 2 H 9 H 4 H 10 HMHHHH
+======
+# M/H: 334 / 2749
+# Last rebuild:   iter 2  num_configs 248
+mv.c:369, mv.c:370, mv.c:371, mv.c:373, 
+-
+(or (= --backup none)
+    (= --backup numbered)
+    (= --backup existing)
+    (= --backup simple)
+    (= -b on))
+-
+1 H 0 MHHHH
+======
+# M/H: 1548 / 1579
+# Last rebuild:   iter 1  num_configs 45
+mv.c:374, mv.c:375, mv.c:376, 
+-
+(= -f on)
+-
+2 HM
+======
+# M/H: 1567 / 1587
+# Last rebuild:   iter 1  num_configs 65
+mv.c:380, mv.c:381, mv.c:382, 
+-
+(= -n on)
+-
+4 HM
+======
+# M/H: 1534 / 1628
+# Last rebuild:   iter 1  num_configs 85
+mv.c:407, mv.c:408, mv.c:409, 
+-
+(= -v on)
+-
+7 HM
+======
+# M/H: 1605 / 1582
+# Last rebuild:   iter 1  num_configs 105
+mv.c:414, mv.c:417, mv.c:422, 
+-
+(= -Z on)
+-
+8 HM
+======
+# M/H: 677 / 2472
+# Last rebuild:   iter 1  num_configs 125
+mv.c:372, 
+-
+(or (= --backup none)
+    (= --backup numbered)
+    (= --backup existing)
+    (= --backup simple))
+-
+0 MHHHH
+======
+# M/H: 1576 / 1635
+# Last rebuild:   iter 1  num_configs 134
+mv.c:377, mv.c:378, mv.c:379, 
+-
+(= -i on)
+-
+3 HM
+======
+# M/H: 1577 / 1653
+# Last rebuild:   iter 1  num_configs 154
+mv.c:383, mv.c:384, mv.c:385, 
+-
+(= --strip-trailing-slashes on)
+-
+5 HM
+======
+# M/H: 1654 / 1589
+# Last rebuild:   iter 1  num_configs 173
+mv.c:404, mv.c:405, mv.c:406, 
+-
+(= -u on)
+-
+6 HM
+======
+# M/H: 2494 / 780
+# Last rebuild:   iter 1  num_configs 193
+mv.c:424, 
+-
+(and (= --version on) (= --help off))
+-
+10 9 MHM
+======
+# M/H: 2240 / 903
+# Last rebuild:   iter 2  num_configs 263
+mv.c:154, mv.c:157, mv.c:158, mv.c:159, mv.c:161, mv.c:430, mv.c:431, mv.c:433, mv.c:443, mv.c:455, mv.c:457, mv.c:458, mv.c:459, mv.c:461, mv.c:462, mv.c:464, mv.c:465, mv.c:472, mv.c:475, 
+-
+(and (= --help off) (= --version off))
+-
+9 M 10 MH
+======
+# M/H: 2681 / 421
+# Last rebuild:   iter 3  num_configs 429
+mv.c:289, mv.c:477, mv.c:479, 
+-
+(and (= -n on)
+     (= --help off)
+     (= --version off)
+     (or (= --backup none)
+         (= --backup numbered)
+         (= --backup existing)
+         (= --backup simple)
+         (= -b on)))
+-
+4 9 M 10 M 0 1 HMHHHHM
+======
+# M/H: 2687 / 477
+# Last rebuild:   iter 2  num_configs 296
+mv.c:473, 
+-
+(and (= -n on) (= --version off) (= --help off))
+-
+4 10 M 9 MHM
+======
+# M/H: 2649 / 507
+# Last rebuild:   iter 2  num_configs 314
+mv.c:169, mv.c:173, mv.c:175, mv.c:245, mv.c:253, mv.c:265, mv.c:268, mv.c:271, mv.c:272, mv.c:273, mv.c:274, mv.c:275, mv.c:282, mv.c:482, mv.c:485, mv.c:486, mv.c:488, mv.c:490, mv.c:495, mv.c:498, mv.c:499, mv.c:501, mv.c:502, mv.c:511, 
+-
+(and (= --help off)
+     (= --version off)
+     (or (= -n off) (and (= --backup off) (= -b off))))
+-
+9 M 10 M 4 0 1 MHMMMMH
+======
+# M/H: 2740 / 423
+# Last rebuild:   iter 2  num_configs 325
+mv.c:483, 
+-
+(and (= -n off)
+     (= --help off)
+     (= --version off)
+     (or (= --backup none)
+         (= --backup numbered)
+         (= --backup existing)
+         (= --backup simple)
+         (= -b on)))
+-
+4 M 9 M 10 M 0 1 HMHHHH
+======
+# M/H: 2793 / 270
+# Last rebuild:   iter 6  num_configs 971
+mv.c:266, 
+-
+(and (= --strip-trailing-slashes on)
+     (= --help off)
+     (= --version off)
+     (or (= -n off) (and (= --backup off) (= -b off))))
+-
+5 9 M 10 M 4 0 1 MHMMMMHM
+======
+# M/H: 3293 / 5
+# Last rebuild:   iter 11  num_configs 2912
+mv.c:178, mv.c:194, mv.c:198, mv.c:227, 
+-
+(let ((a!1 (and (= --backup existing)
+                (= -b off)
+                (= -f off)
+                (or (and (= -i off) (= --strip-trailing-slashes off) (= -u on))
+                    (and (= -i on) (= --strip-trailing-slashes on) (= -u off))))))
+  (and (= -n off)
+       (= -v on)
+       (= -Z off)
+       (= --help off)
+       (= --version off)
+       (or (and (= --backup simple)
+                (= -b on)
+                (= --strip-trailing-slashes on)
+                (= -f on)
+                (= -i on)
+                (= -u on))
+           a!1
+           (and (= --backup none)
+                (= -b off)
+                (= -f off)
+                (= -u off)
+                (= -i on)
+                (= --strip-trailing-slashes off)))))
+-
+4 M 7 8 M 9 M 10 M 0 M 1 M 2 M 6 M 3 5 MHMM 1 M 2 M 3 5 6 MHM 5 M 6 HM 1 5 2 3 6 HMMMMMM
+======
