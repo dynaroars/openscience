@@ -23,6 +23,32 @@ cmake ..
 make
 ```
 
+## Running GenTree
+To run the example in the Illustration section, use
+```shell script
+./gentree -J2 -cx -BF @ex_paper
+```
+To run the example with the full config space, use
+```shell script
+./gentree -J2 -cx -BF @ex_paper --full
+```
+To run otter programs (vsftpd, ngircd), use 
+```shell script
+./gentree -J2 -cx -YF benchmarks/2/ngircd
+```
+(change `benchmarks/2` to the correct folder containing benchmark configs)
+
+To run gcov programs (e.g. `id`), use
+```shell script
+./gentree -J2 -cx -GF benchmarks/2/id
+```
+(change `benchmarks/2` to the correct folder containing benchmark configs; and change `conf.gcov` file appropriately for executable paths and testsuite directory)
+
+For helps on GenTree CLI options, uses
+```shell script
+./gentree --help
+```
+
 ## Experiment data
 - `exp-data/{ls, cat, ...}`: GenTree's outputs (11 runs for each program), and optionally a `full.txt` file containing the results generated using all configuration space.
 - `exp-data/Analyze/{stat, mcc, cmin, stat_full}`: aggregated experiment data that is used to fill in tables in the paper

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(igen4)
+project(gentree)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -47,17 +47,17 @@ add_subdirectory(igen)
 
 # === Main code ======================================
 
-add_executable(igen4
+add_executable(gentree
         main.cpp)
 
-target_link_libraries(igen4 PRIVATE
+target_link_libraries(gentree PRIVATE
         Boost::headers Boost::program_options Boost::timer
-        z3::libz3 klib libigen4)
+        z3::libz3 klib libgentree)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
 elseif (IGEN_LTO)
-    target_compile_options(igen4 PUBLIC -flto)
-    target_compile_options(libigen4 PUBLIC -flto)
+    target_compile_options(gentree PUBLIC -flto)
+    target_compile_options(libgentree PUBLIC -flto)
     target_compile_options(klib PUBLIC -flto)
 endif ()
 
