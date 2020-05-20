@@ -3,9 +3,9 @@
 This repository contains the source code and experiment data for the paper *GenTree: Using Decision Trees to Learn Interactions for Configurable Software*.
 
 ## Repository Structure
-+ benchmarks: testsuites and configuration files for all benchmarks presented in the paper
-+ exp-data: raw benchmark resutls
-+ gentree-src: the GenTree source code (written in C++).
++ `benchmarks`: testsuites and configuration files for all benchmarks presented in the paper
++ `exp-data`: raw benchmark resutls
++ `gentree-src`: the GenTree source code (written in C++).
 
 ## Building GenTree
 GenTree uses the CMake build system and requires the following external libraries:
