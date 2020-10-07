@@ -1,6 +1,6 @@
-# ./igen4 -J2 -crwx -GF 2/cat --rep 11 -O res/cat/full.txt --full -j16
-# seed = 133, repeat_id = 10, thread_id = 0
-#     4096  205   27 |  4096    -1 | 10    1 |     0     0      0 | 9ff3bb591bb03083c9ac5955d5cd1cd5
+# ./igen4 -J2 -crwx -GF 2/cat -O res/cat/full.txt --full -j64
+# seed = 123, repeat_id = 0, thread_id = 0
+#     4096  205   27 |  4040    -1 |  0    1 |     0     0      0 | 9ff3bb591bb03083c9ac5955d5cd1cd5
 ======
 # M/H: 2048 / 2048
 # Last rebuild:   iter 0  num_configs 4096

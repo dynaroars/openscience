@@ -1,8 +1,8 @@
-# ./igen4 -J2 -cr -F 2/date -O res/Analyze_progress_rand/date/iter_{iter}.txt --rand-each-iteration 1571,2328,2592,2664,2688,2712,2736,2760,2824,2883,2895,2907,2919,2931,2943,2955,3091,3179,5896,5982,6006,6030,6079,6091,6103,6145,8332,8362,10120,11550,12704,13623,14408
+# ./igen4 -J2 -cr -F 2/date -O res/Analyze_progress_rand/date/iter_{iter}.txt --rand-each-iteration 1267,1690,2147,2189,2205,2221,2229,2237,2292,2308,4266,4433,4458,4474,4490,4506,4522,4538,4556,4564,4572,4580,4588,4640,6174,6191,7500,8790,9877,10741,11484
 # seed = 123, repeat_id = 0, thread_id = 0
-#    11550  123   16 | 11550    -1 |  0   30 |     0     0      0 | e32f09160bf2b12a5f831fdfb59e6189
+#    10741  123   16 | 10741    -1 |  0   30 |     0     0      0 | abb10a10b70c129faa9848b2f168a9b0
 ======
-# M/H: 0 / 11550
+# M/H: 0 / 10741
 # Last rebuild:   iter -1  num_configs -1
 date.c:348, date.c:351, date.c:352, date.c:354, date.c:355, date.c:356, date.c:357, date.c:363, date.c:364, date.c:368, date.c:370, date.c:373, date.c:375, 
 -
@@ -10,7 +10,7 @@ true
 -
 H
 ======
-# M/H: 6479 / 5071
+# M/H: 6057 / 4684
 # Last rebuild:   iter -1  num_configs -1
 date.c:386, date.c:394, date.c:395, date.c:397, date.c:398, 
 -
@@ -19,7 +19,7 @@ date.c:386, date.c:394, date.c:395, date.c:397, date.c:398,
 -
 2 1 3 MHHHMMMMM 3 MHHH
 ======
-# M/H: 1897 / 9653
+# M/H: 1758 / 8983
 # Last rebuild:   iter -1  num_configs -1
 date.c:400, date.c:410, date.c:412, date.c:413, date.c:414, date.c:415, 
 -
@@ -31,7 +31,7 @@ date.c:400, date.c:410, date.c:412, date.c:413, date.c:414, date.c:415,
 -
 1 MHHHHH
 ======
-# M/H: 89 / 11461
+# M/H: 84 / 10657
 # Last rebuild:   iter -1  num_configs -1
 date.c:441, 
 -
@@ -52,7 +52,7 @@ date.c:441,
 -
 1 4 H 3 2 H 6 M 5 MHHHHHHHHH
 ======
-# M/H: 238 / 11312
+# M/H: 222 / 10519
 # Last rebuild:   iter -1  num_configs -1
 date.c:443, date.c:445, 
 -
@@ -70,7 +70,7 @@ date.c:443, date.c:445,
 -
 1 3 2 HMHHHHHHHH
 ======
-# M/H: 2387 / 9163
+# M/H: 2215 / 8526
 # Last rebuild:   iter -1  num_configs -1
 date.c:444, 
 -
@@ -89,28 +89,28 @@ date.c:444,
                         (= --rfc-3339 seconds)
                         (= --rfc-3339 ns))))))
 (let ((a!2 (and (= -R off)
-                (or (and (= --rfc-3339 date) a!1)
-                    (and (= --rfc-3339 seconds) a!1)
-                    (and (= --rfc-3339 ns) a!1)))))
+                (or (and (= --rfc-3339 ns) a!1)
+                    (and (= --rfc-3339 date) a!1)
+                    (and (= --rfc-3339 seconds) a!1)))))
   (or a!2 (and (= -R on) a!3))))
 -
 2 1 3 MHHHHHHHH 3 M 1 MHHHHH 1 MHHHHH 1 MHHHHH
 ======
-# M/H: 10339 / 1211
+# M/H: 9607 / 1134
 # Last rebuild:   iter -1  num_configs -1
 date.c:124, date.c:126, date.c:130, date.c:135, date.c:139, date.c:141, date.c:144, date.c:148, date.c:151, date.c:158, date.c:162, date.c:168, date.c:171, date.c:175, date.c:176, date.c:177, date.c:184, date.c:190, date.c:196, date.c:201, date.c:207, date.c:213, date.c:223, date.c:229, date.c:235, date.c:241, date.c:250, date.c:260, date.c:267, date.c:279, date.c:281, date.c:435, system.h:588, system.h:590, system.h:593, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
 -
 (let ((a!1 (and (= -R off)
                 (or (= --rfc-3339 off)
-                    (and (= --rfc-3339 date) (= --iso-8601 off))
                     (and (= --rfc-3339 ns) (= --iso-8601 off))
+                    (and (= --rfc-3339 date) (= --iso-8601 off))
                     (and (= --rfc-3339 seconds) (= --iso-8601 off))))))
   (and (= --help on)
        (or (and (= -R on) (= --iso-8601 off) (= --rfc-3339 off)) a!1)))
 -
 5 2 1 3 HMMMMMMMM 3 H 1 HMMMMM 1 HMMMMM 1 HMMMMMM
 ======
-# M/H: 5799 / 5751
+# M/H: 5363 / 5378
 # Last rebuild:   iter -1  num_configs -1
 date.c:420, date.c:421, date.c:422, 
 -
@@ -118,7 +118,7 @@ date.c:420, date.c:421, date.c:422,
 -
 2 HM
 ======
-# M/H: 10965 / 585
+# M/H: 10201 / 540
 # Last rebuild:   iter -1  num_configs -1
 date.c:377, date.c:378, date.c:379, date.c:449, date.c:450, date.c:451, date.c:453, date.c:460, date.c:467, 
 -
@@ -133,16 +133,53 @@ date.c:377, date.c:378, date.c:379, date.c:449, date.c:450, date.c:451, date.c:4
 -
 5 M 6 M 2 1 3 HMMMMMMMM 3 H 1 HMMMMM 1 HMMMMM 1 HMMMMM
 ======
-# M/H: 10977 / 573
+# M/H: 10213 / 528
 # Last rebuild:   iter -1  num_configs -1
 date.c:469, date.c:475, date.c:477, 
 -
-(let ((a!1 (or (and (= --rfc-3339 ns)
+(let ((a!1 (or (and (= --rfc-3339 date)
                     (= --iso-8601 off)
                     (or (= + %a)
                         (= + %A)
                         (= + %b)
-                        (= + %c)
+                        (= + %B)
+                        (= + %C)
+                        (= + d)
+                        (= + %d)
+                        (= + %e)
+                        (= + %F)
+                        (= + %g)
+                        (= + G)
+                        (= + %h)
+                        (= + %I)
+                        (= + %j)
+                        (= + %l)
+                        (= + %m)
+                        (= + %M)
+                        (= + %n)
+                        (= + %N)
+                        (= + %p)
+                        (= + %P)
+                        (= + %R)
+                        (= + %s)
+                        (= + %S)
+                        (= + %t)
+                        (= + %u)
+                        (= + %U)
+                        (= + %V)
+                        (= + %w)
+                        (= + %W)
+                        (= + %x)
+                        (= + %X)
+                        (= + %Y)
+                        (= + %z)
+                        (= + |%:z|)
+                        (= + |%:::z|)))
+               (and (= --rfc-3339 ns)
+                    (= --iso-8601 off)
+                    (or (= + %a)
+                        (= + %A)
+                        (= + %b)
                         (= + %C)
                         (= + d)
                         (= + %d)
@@ -159,7 +196,6 @@ date.c:469, date.c:475, date.c:477,
                         (= + %M)
                         (= + %n)
                         (= + %N)
-                        (= + %p)
                         (= + %P)
                         (= + %r)
                         (= + %R)
@@ -178,49 +214,6 @@ date.c:469, date.c:475, date.c:477,
                         (= + |%::z|)
                         (= + |%:::z|)
                         (= + %Z)))
-               (and (= --rfc-3339 date)
-                    (= --iso-8601 off)
-                    (or (= + %a)
-                        (= + %A)
-                        (= + %b)
-                        (= + %B)
-                        (= + %c)
-                        (= + %C)
-                        (= + d)
-                        (= + %d)
-                        (= + %e)
-                        (= + %F)
-                        (= + %g)
-                        (= + G)
-                        (= + %h)
-                        (= + %I)
-                        (= + %j)
-                        (= + %k)
-                        (= + %l)
-                        (= + %m)
-                        (= + %M)
-                        (= + %n)
-                        (= + %N)
-                        (= + %p)
-                        (= + %P)
-                        (= + %R)
-                        (= + %s)
-                        (= + %S)
-                        (= + %t)
-                        (= + %T)
-                        (= + %u)
-                        (= + %U)
-                        (= + %V)
-                        (= + %w)
-                        (= + %W)
-                        (= + %x)
-                        (= + %X)
-                        (= + %Y)
-                        (= + %z)
-                        (= + |%:z|)
-                        (= + |%::z|)
-                        (= + |%:::z|)))
-               (and (= --rfc-3339 seconds) (= --iso-8601 off))
                (and (= --rfc-3339 off)
                     (or (= + %a)
                         (= + %A)
@@ -265,15 +258,16 @@ date.c:469, date.c:475, date.c:477,
                         (= + |%:z|)
                         (= + |%::z|)
                         (= + |%:::z|)
-                        (= + %Z))))))
+                        (= + %Z)))
+               (and (= --rfc-3339 seconds) (= --iso-8601 off)))))
   (and (= --help off)
        (= --version off)
-       (or (and (= -R on) (= --iso-8601 off) (= --rfc-3339 off))
-           (and (= -R off) a!1))))
+       (or (and (= -R off) a!1)
+           (and (= -R on) (= --iso-8601 off) (= --rfc-3339 off)))))
 -
-5 M 6 M 2 1 3 HMMMMMMMM 3 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 1 0 MHHHHHHHHHHHHHMHHHHHHHHHHMHHHHHHHHHHHHMHHHHHMMMMMM 1 HMMMMM 1 0 MHHHMHHHHHHHMHHHHHHHHHHHHHHMHHHMHHHHHHHHMHHHHMMMMM
+5 M 6 M 2 1 3 HMMMMMMMM 3 0 MHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 1 0 MHHHHMHHHHHHHHMHHMHHHHHHHMHHHHMHHHHHHHMHHHMHMMMMMM 1 HMMMMM 1 0 MHHHMMHHHHHHMHHHHHHHHHHMHHHMHHHMHHHHHHHHMHHHHMMMMM
 ======
-# M/H: 11493 / 57
+# M/H: 10687 / 54
 # Last rebuild:   iter -1  num_configs -1
 date.c:479, 
 -
@@ -295,8 +289,6 @@ date.c:479,
          (= + %h)
          (= + %H)
          (= + %I)
-         (= + %j)
-         (= + %k)
          (= + %l)
          (= + %m)
          (= + %M)
@@ -317,36 +309,35 @@ date.c:479,
          (= + %x)
          (= + %X)
          (= + %y)
-         (= + %Y)
          (= + %z)
          (= + |%:z|)
          (= + |%::z|)
          (= + |%:::z|)
          (= + %Z)))
 -
-1 5 M 3 2 M 6 M 0 MHHHHMHHHMHHHHHHHHHHHHHHHHMHHHHHHHHHHHHHHHHHHMMMMMMMM
+1 5 M 3 2 M 6 M 0 MHHHHMHHHMHHHHHHMMHHHHHHHHMHHHHHHHHHHHHMHHHHHMMMMMMMM
 ======
-# M/H: 11481 / 69
+# M/H: 10675 / 66
 # Last rebuild:   iter -1  num_configs -1
 date.c:492, date.c:508, date.c:509, date.c:511, date.c:515, date.c:516, date.c:518, date.c:541, date.c:549, date.c:551, date.c:557, date.c:560, date.c:571, date.c:576, date.c:583, date.c:587, date.c:589, date.c:591, date.c:592, date.c:594, date.c:595, 
 -
 (let ((a!1 (and (= --rfc-3339 off)
                 (or (= --iso-8601 off)
                     (and (= --iso-8601 minutes) (= + off))
-                    (and (= --iso-8601 hours) (= + off))
-                    (and (= --iso-8601 ns) (= + off))
                     (and (= --iso-8601 seconds) (= + off))
+                    (and (= --iso-8601 ns) (= + off))
+                    (and (= --iso-8601 hours) (= + off))
                     (and (= --iso-8601 date) (= + off))))))
   (and (= --help off)
-       (= --version off)
        (= -R off)
+       (= --version off)
        (or a!1
            (and (= --rfc-3339 date) (= --iso-8601 off) (= + off))
            (and (= --rfc-3339 ns) (= --iso-8601 off) (= + off)))))
 -
-5 M 6 M 2 M 3 1 H 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 1 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 1 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+5 M 2 M 6 M 3 1 H 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 1 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 1 0 HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 ======
-# M/H: 10352 / 1198
+# M/H: 9631 / 1110
 # Last rebuild:   iter -1  num_configs -1
 date.c:427, date.c:431, date.c:434, system.h:698, system.h:700, 
 -
@@ -359,7 +350,7 @@ date.c:427, date.c:431, date.c:434, system.h:698, system.h:700,
 -
 4 2 1 3 HMMMMMMMM 3 H 1 HMMMMM 1 HMMMMM 1 HMMMMMM
 ======
-# M/H: 10959 / 591
+# M/H: 10200 / 541
 # Last rebuild:   iter -1  num_configs -1
 date.c:436, 
 -
@@ -374,7 +365,7 @@ date.c:436,
 -
 5 M 6 2 1 3 HMMMMMMMM 3 H 1 HMMMMM 1 HMMMMM 1 HMMMMMM
 ======
-# M/H: 11034 / 516
+# M/H: 10267 / 474
 # Last rebuild:   iter -1  num_configs -1
 date.c:478, 
 -
@@ -395,7 +386,6 @@ date.c:478,
                         (= + %H)
                         (= + %I)
                         (= + %j)
-                        (= + %m)
                         (= + %M)
                         (= + %n)
                         (= + %N)
@@ -408,7 +398,6 @@ date.c:478,
                         (= + %T)
                         (= + %u)
                         (= + %U)
-                        (= + %V)
                         (= + %x)
                         (= + %X)
                         (= + %y)
@@ -540,7 +529,6 @@ date.c:478,
                         (= + %b)
                         (= + %B)
                         (= + %c)
-                        (= + %C)
                         (= + d)
                         (= + %d)
                         (= + %e)
@@ -552,7 +540,6 @@ date.c:478,
                         (= + %I)
                         (= + %j)
                         (= + %k)
-                        (= + %l)
                         (= + %m)
                         (= + %n)
                         (= + %N)
@@ -563,7 +550,6 @@ date.c:478,
                         (= + %s)
                         (= + %S)
                         (= + %t)
-                        (= + %T)
                         (= + %U)
                         (= + %V)
                         (= + %w)
@@ -582,7 +568,6 @@ date.c:478,
                         (= + %A)
                         (= + %b)
                         (= + %B)
-                        (= + %c)
                         (= + %C)
                         (= + d)
                         (= + %d)
@@ -593,7 +578,6 @@ date.c:478,
                         (= + %h)
                         (= + %I)
                         (= + %j)
-                        (= + %k)
                         (= + %l)
                         (= + %m)
                         (= + %M)
@@ -605,7 +589,6 @@ date.c:478,
                         (= + %s)
                         (= + %S)
                         (= + %t)
-                        (= + %T)
                         (= + %u)
                         (= + %U)
                         (= + %V)
@@ -616,14 +599,12 @@ date.c:478,
                         (= + %Y)
                         (= + %z)
                         (= + |%:z|)
-                        (= + |%::z|)
                         (= + |%:::z|)))
                (and (= --rfc-3339 ns)
                     (= --iso-8601 off)
                     (or (= + %a)
                         (= + %A)
                         (= + %b)
-                        (= + %c)
                         (= + %C)
                         (= + d)
                         (= + %d)
@@ -640,7 +621,6 @@ date.c:478,
                         (= + %M)
                         (= + %n)
                         (= + %N)
-                        (= + %p)
                         (= + %P)
                         (= + %r)
                         (= + %R)
@@ -664,9 +644,9 @@ date.c:478,
        (or (and (= -R on) (= --iso-8601 off) (= --rfc-3339 off))
            (and (= -R off) a!2)))))
 -
-5 M 6 M 2 1 3 HMMMMMMMM 3 1 M 0 MHHHHHHHHHHHHHHHHMMHHHHHHHHHMHHHHHMMHHHHHMHMM 0 MHHHHMHHMHHHHHHHHHHMHHHHHHMHHMHHHHHHHHHHMHHHH 0 MHHMHHHHMHHHHHHMHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 0 MHHHHHHHHHHMHHMHMHMHHHHHHMHHHHHMHMHHHHHHHHHHH 0 MHHHHHHHHHHHHHHHHHHHMHHHHHHHHHHMHHHHHHHHHMMHM 1 0 MHHHHHHHHHHHHHMHHHHHHHHHHMHHHHHHHHHHHHMHHHHHMMMMMM 1 HMMMMM 1 0 MHHHMHHHHHHHMHHHHHHHHHHHHHHMHHHMHHHHHHHHMHHHHMMMMM
+5 M 6 M 2 1 3 HMMMMMMMM 3 1 M 0 MHHHHHHHHHHHHHHHHMMMHHHHHHHHMHHHHMMMHHHHHMHMM 0 MHHHHMHHMHHHHHHHHHHMHHHHHHMHHMHHHHHHHHHHMHHHH 0 MHHMHHHHMHHHHHHMHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 0 MHHHHHHHHHHMHHMHMHMHHHHHHMHHHHHMHMHHHHHHHHHHH 0 MHHHHHMHHHHHHHHHHHMHMHHHHHHHHHMMHHHHHHHHHMMHM 1 0 MHHHHMHHHHHHHHMHHMHHHHHHHMHHHHMHHHHHHHMHHHMHMMMMMM 1 HMMMMM 1 0 MHHHMMHHHHHHMHHHHHHHHHHMHHHMHHHMHHHHHHHHMHHHHMMMMM
 ======
-# M/H: 11549 / 1
+# M/H: 10740 / 1
 # Last rebuild:   iter -1  num_configs -1
 date.c:494, date.c:495, 
 -

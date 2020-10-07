@@ -22,4 +22,4 @@ run join
 run grin 
 run ngircd
 
-#run sort 
+run sort 

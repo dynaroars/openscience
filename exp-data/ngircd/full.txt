@@ -1,6 +1,6 @@
-# ./igen4 -J2 -crwx -YF 2/ngircd -O res/ngircd/full.txt --full -j16
+# ./igen4 -J2 -crwx -YF 2/ngircd -O res/ngircd/full.txt --full -j64
 # seed = 123, repeat_id = 0, thread_id = 0
-#   294912 3090   65 | 294912  3090 |  0    1 |    65    35      0 | bfa566904c89dc943c2991405d0e2948
+#   294912 3090   65 | 163547  3090 |  0    1 |   196   149   5839 | bfa566904c89dc943c2991405d0e2948
 ======
 # M/H: 147456 / 147456
 # Last rebuild:   iter 0  num_configs 294912

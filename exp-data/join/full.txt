@@ -1,6 +1,6 @@
-# ./igen4 -J2 -crwx -GF 2/join --rep 11 -O res/join/full.txt --full -j16
-# seed = 133, repeat_id = 10, thread_id = 0
-#    18432  365   33 | 18432    -1 | 10    1 |     0     0      0 | 348bf369898726701e56419fdaeb40e7
+# ./igen4 -J2 -crwx -GF 2/join -O res/join/full.txt --full -j64
+# seed = 123, repeat_id = 0, thread_id = 0
+#    18432  365   33 | 16660   502 |  0    1 |     0     0     29 | 348bf369898726701e56419fdaeb40e7
 ======
 # M/H: 0 / 18432
 # Last rebuild:   iter 0  num_configs 18432

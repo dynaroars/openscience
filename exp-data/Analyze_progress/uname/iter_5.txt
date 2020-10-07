@@ -1,8 +1,8 @@
 # ./igen4 -J2 -cr -s4 -F 2/uname -O res/Analyze_progress/uname/iter_{iter}.txt --save-each-iter
 # seed = 4, repeat_id = 0, thread_id = 0
-#      216   99   23 |   216    -1 |  0    5 |     0     0      0 | 302aedb60755ce521d1a179a94fafba9
+#      169   98   23 |   169    -1 |  0    5 |     0     0      0 | 7876f5f24fccef988ff4036ea5c469ba
 ======
-# M/H: 142 / 82
+# M/H: 103 / 72
 # Last rebuild:   iter 2  num_configs 10
 uname.c:161, uname.c:164, uname.c:165, uname.c:166, uname.c:167, uname.c:168, uname.c:250, uname.c:256, uname.c:277, uname.c:280, uname.c:281, uname.c:286, uname.c:289, uname.c:291, uname.c:293, uname.c:295, uname.c:297, uname.c:301, uname.c:345, uname.c:370, uname.c:373, uname.c:375, 
 -
@@ -10,7 +10,7 @@ uname.c:161, uname.c:164, uname.c:165, uname.c:166, uname.c:167, uname.c:168, un
 -
 9 M 10 MH
 ======
-# M/H: 0 / 226
+# M/H: 0 / 177
 # Last rebuild:   iter 1  num_configs 4
 uname.c:175, uname.c:178, uname.c:180, uname.c:199, uname.c:202, uname.c:260, uname.c:265, uname.c:268, uname.c:269, uname.c:273, uname.c:275, 
 -
@@ -18,7 +18,7 @@ true
 -
 H
 ======
-# M/H: 118 / 108
+# M/H: 92 / 85
 # Last rebuild:   iter 2  num_configs 12
 uname.c:212, uname.c:213, uname.c:214, 
 -
@@ -26,7 +26,7 @@ uname.c:212, uname.c:213, uname.c:214,
 -
 2 HM
 ======
-# M/H: 113 / 115
+# M/H: 88 / 91
 # Last rebuild:   iter 2  num_configs 14
 uname.c:216, uname.c:217, uname.c:218, 
 -
@@ -34,7 +34,7 @@ uname.c:216, uname.c:217, uname.c:218,
 -
 3 HM
 ======
-# M/H: 112 / 114
+# M/H: 90 / 88
 # Last rebuild:   iter 3  num_configs 40
 uname.c:220, uname.c:221, uname.c:222, 
 -
@@ -42,7 +42,7 @@ uname.c:220, uname.c:221, uname.c:222,
 -
 4 HM
 ======
-# M/H: 118 / 114
+# M/H: 85 / 98
 # Last rebuild:   iter 2  num_configs 18
 uname.c:228, uname.c:229, uname.c:230, 
 -
@@ -50,7 +50,7 @@ uname.c:228, uname.c:229, uname.c:230,
 -
 6 HM
 ======
-# M/H: 116 / 113
+# M/H: 97 / 83
 # Last rebuild:   iter 3  num_configs 42
 uname.c:232, uname.c:233, uname.c:234, 
 -
@@ -58,7 +58,7 @@ uname.c:232, uname.c:233, uname.c:234,
 -
 7 HM
 ======
-# M/H: 118 / 112
+# M/H: 95 / 86
 # Last rebuild:   iter 3  num_configs 44
 uname.c:236, uname.c:237, uname.c:238, 
 -
@@ -66,7 +66,7 @@ uname.c:236, uname.c:237, uname.c:238,
 -
 8 HM
 ======
-# M/H: 169 / 65
+# M/H: 125 / 60
 # Last rebuild:   iter 3  num_configs 48
 uname.c:292, 
 -
@@ -74,7 +74,7 @@ uname.c:292,
 -
 10 M 9 M 2 H 0 HM
 ======
-# M/H: 161 / 67
+# M/H: 122 / 58
 # Last rebuild:   iter 4  num_configs 62
 uname.c:294, 
 -
@@ -82,7 +82,7 @@ uname.c:294,
 -
 9 M 10 M 3 H 0 HM
 ======
-# M/H: 173 / 65
+# M/H: 127 / 62
 # Last rebuild:   iter 3  num_configs 52
 uname.c:296, 
 -
@@ -90,7 +90,7 @@ uname.c:296,
 -
 10 M 9 M 0 H 4 HM
 ======
-# M/H: 164 / 66
+# M/H: 119 / 62
 # Last rebuild:   iter 4  num_configs 64
 uname.c:303, uname.c:341, 
 -
@@ -98,7 +98,7 @@ uname.c:303, uname.c:341,
 -
 9 M 10 M 6 H 0 HM
 ======
-# M/H: 205 / 19
+# M/H: 157 / 18
 # Last rebuild:   iter 4  num_configs 58
 uname.c:342, 
 -
@@ -106,7 +106,7 @@ uname.c:342,
 -
 0 M 6 10 M 9 MHM
 ======
-# M/H: 162 / 70
+# M/H: 120 / 63
 # Last rebuild:   iter 4  num_configs 66
 uname.c:347, uname.c:366, 
 -
@@ -114,7 +114,7 @@ uname.c:347, uname.c:366,
 -
 9 M 10 M 7 H 0 HM
 ======
-# M/H: 216 / 25
+# M/H: 173 / 18
 # Last rebuild:   iter 3  num_configs 54
 uname.c:367, 
 -
@@ -122,7 +122,7 @@ uname.c:367,
 -
 0 M 7 10 M 9 MHM
 ======
-# M/H: 167 / 67
+# M/H: 121 / 65
 # Last rebuild:   iter 4  num_configs 68
 uname.c:371, 
 -
@@ -130,7 +130,7 @@ uname.c:371,
 -
 9 M 10 M 8 H 0 HM
 ======
-# M/H: 133 / 97
+# M/H: 115 / 66
 # Last rebuild:   iter 1  num_configs 8
 system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, uname.c:115, uname.c:117, uname.c:121, uname.c:123, uname.c:125, uname.c:134, uname.c:150, uname.c:151, uname.c:152, uname.c:154, uname.c:240, 
 -
@@ -138,7 +138,7 @@ system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:6
 -
 9 HM
 ======
-# M/H: 120 / 118
+# M/H: 93 / 96
 # Last rebuild:   iter 2  num_configs 24
 uname.c:204, uname.c:205, uname.c:206, 
 -
@@ -146,7 +146,7 @@ uname.c:204, uname.c:205, uname.c:206,
 -
 0 HM
 ======
-# M/H: 117 / 125
+# M/H: 92 / 99
 # Last rebuild:   iter 2  num_configs 26
 uname.c:208, uname.c:209, uname.c:210, 
 -
@@ -154,7 +154,7 @@ uname.c:208, uname.c:209, uname.c:210,
 -
 1 HM
 ======
-# M/H: 120 / 123
+# M/H: 94 / 100
 # Last rebuild:   iter 2  num_configs 28
 uname.c:224, uname.c:225, uname.c:226, 
 -
@@ -162,7 +162,7 @@ uname.c:224, uname.c:225, uname.c:226,
 -
 5 HM
 ======
-# M/H: 190 / 54
+# M/H: 147 / 50
 # Last rebuild:   iter 2  num_configs 30
 uname.c:242, 
 -
@@ -170,18 +170,15 @@ uname.c:242,
 -
 9 M 10 HM
 ======
-# M/H: 260 / 96
-# Last rebuild:   iter 5  num_configs 208
+# M/H: 121 / 56
+# Last rebuild:   iter 4  num_configs 60
 uname.c:290, 
 -
-(let ((a!1 (and (= -s off)
-                (or (= -a on)
-                    (and (= -a off) (= -n off) (= -v off) (= -m off) (= -r off))))))
-  (and (= --help off) (= --version off) (or (= -s on) a!1)))
+(and (= --help off) (= --version off) (or (= -a on) (and (= -a off) (= -s on))))
 -
-9 M 10 M 1 H 0 H 2 M 4 M 5 M 3 MH
+9 M 10 M 0 H 1 HM
 ======
-# M/H: 178 / 64
+# M/H: 129 / 64
 # Last rebuild:   iter 3  num_configs 56
 uname.c:298, 
 -

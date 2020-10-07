@@ -1,8 +1,8 @@
-# ./igen4 -J2 -crwx -GF 2/id --rep 11 -O res/id/a_{i}.txt -j10 --rep-para 4
-# seed = 133, repeat_id = 10, thread_id = 2
-#      909  150   32 |  5567   203 | 10   11 |     0     0      2 | b65226ec00d77df100c8fdfe8c42bcc7
+# ./igen4 -J2 -crwx -GF 2/id --rep 11 -O res/id/a_{i}.txt -j64 --rep-para 11
+# seed = 133, repeat_id = 10, thread_id = 5
+#      609  150   32 |  3863   203 | 10   12 |     0     0      5 | c17f767e805b28e27c243f4df63f2e4a
 ======
-# M/H: 0 / 941
+# M/H: 0 / 630
 # Last rebuild:   iter 1  num_configs 2
 ../coreutils-8.32/lib/smack.h:39, ../coreutils-8.32/lib/smack.h:44, id.c:125, id.c:128, id.c:129, id.c:130, id.c:133, id.c:134, id.c:138, id.c:140, 
 -
@@ -10,8 +10,8 @@ true
 -
 H
 ======
-# M/H: 1 / 935
-# Last rebuild:   iter 7  num_configs 401
+# M/H: 1 / 628
+# Last rebuild:   iter 9  num_configs 191
 id.c:142, 
 -
 (or (= -a on)
@@ -25,9 +25,9 @@ id.c:142,
     (= --help on)
     (= --version on))
 -
-7 H 0 H 5 H 9 H 3 H 2 H 4 H 6 H 1 H 8 HM
+7 H 0 H 4 H 3 H 5 H 9 H 8 H 1 H 2 H 6 HM
 ======
-# M/H: 482 / 463
+# M/H: 334 / 299
 # Last rebuild:   iter 1  num_configs 4
 id.c:144, id.c:146, 
 -
@@ -35,23 +35,23 @@ id.c:144, id.c:146,
 -
 0 HM
 ======
-# M/H: 717 / 242
-# Last rebuild:   iter 2  num_configs 27
+# M/H: 472 / 169
+# Last rebuild:   iter 2  num_configs 20
 id.c:172, id.c:173, id.c:174, 
 -
-(and (= -Z off) (= -u on))
+(and (= -u on) (= -Z off))
 -
-1 M 6 HM
+6 1 MHM
 ======
-# M/H: 833 / 127
-# Last rebuild:   iter 2  num_configs 29
+# M/H: 564 / 81
+# Last rebuild:   iter 2  num_configs 24
 id.c:182, 
 -
-(and (= --help off) (= -Z off) (= --version on))
+(and (= --help off) (= --version on) (= -Z off))
 -
-8 M 1 M 9 HM
+8 M 9 1 MHM
 ======
-# M/H: 491 / 462
+# M/H: 359 / 278
 # Last rebuild:   iter 1  num_configs 6
 id.c:148, id.c:156, id.c:157, 
 -
@@ -59,309 +59,316 @@ id.c:148, id.c:156, id.c:157,
 -
 1 HM
 ======
-# M/H: 710 / 253
-# Last rebuild:   iter 2  num_configs 31
+# M/H: 481 / 165
+# Last rebuild:   iter 2  num_configs 26
 id.c:163, id.c:164, id.c:165, 
 -
 (and (= -g on) (= -Z off))
 -
 2 1 MHM
 ======
-# M/H: 713 / 249
-# Last rebuild:   iter 2  num_configs 33
+# M/H: 460 / 189
+# Last rebuild:   iter 2  num_configs 28
 id.c:166, id.c:167, id.c:168, 
 -
 (and (= -n on) (= -Z off))
 -
 4 1 MHM
 ======
-# M/H: 730 / 258
-# Last rebuild:   iter 3  num_configs 89
+# M/H: 464 / 193
+# Last rebuild:   iter 3  num_configs 65
 id.c:175, id.c:176, id.c:177, 
 -
-(and (= -z on) (= -Z off))
+(and (= -Z off) (= -z on))
 -
-7 1 MHM
+1 M 7 HM
 ======
-# M/H: 738 / 252
-# Last rebuild:   iter 3  num_configs 92
+# M/H: 490 / 169
+# Last rebuild:   iter 3  num_configs 67
 id.c:178, id.c:179, id.c:180, 
 -
-(and (= -G on) (= -Z off))
+(and (= -Z off) (= -G on))
 -
-3 1 MHM
+1 M 3 HM
 ======
-# M/H: 849 / 136
-# Last rebuild:   iter 3  num_configs 87
+# M/H: 527 / 124
+# Last rebuild:   iter 2  num_configs 30
 id.c:188, id.c:190, id.c:194, 
 -
-(and (= --help off) (= --version off) (= -Z off))
+(and (= --version off) (= --help off) (= -Z off))
 -
-8 M 9 M 1 MH
+9 M 8 M 1 MH
 ======
-# M/H: 864 / 67
-# Last rebuild:   iter 4  num_configs 107
+# M/H: 560 / 65
+# Last rebuild:   iter 6  num_configs 154
 id.c:197, id.c:202, 
 -
-(let ((a!1 (or (and (= -g off) (= -G off))
-               (and (= -u off) (or (= -g off) (= -G off))))))
-  (and (= --help off) (= --version off) (= -Z off) a!1))
+(let ((a!1 (or (and (= -g off) (or (= -G off) (= -u off)))
+               (and (= -G off) (= -u off)))))
+  (and (= --version off) (= --help off) (= -Z off) a!1))
 -
-8 M 9 M 1 M 6 2 M 3 MH 2 3 MHH
+9 M 8 M 1 M 2 3 M 6 MH 3 6 MHH
 ======
-# M/H: 884 / 56
-# Last rebuild:   iter 4  num_configs 114
+# M/H: 565 / 54
+# Last rebuild:   iter 10  num_configs 328
 id.c:206, 
 -
 (let ((a!1 (and (= -g off)
-                (or (= -G on) (and (= -G off) (= -n off) (= -r off))))))
-(let ((a!2 (and (= -u off) (or (and (= -g on) (= -G off)) a!1))))
+                (or (and (= -r off) (= -n off) (= -G off))
+                    (and (= -u off) (= -G on))
+                    (and (= -u on) (= -G off))))))
   (and (= --help off)
        (= -Z off)
        (= --version off)
-       (or (and (= -u on) (= -G off) (= -g off)) a!2))))
+       (or (and (= -g on) (= -G off) (= -u off)) a!1)))
 -
-8 M 1 M 9 M 6 3 M 2 MH 2 3 MH 3 H 4 M 5 MH
+8 M 1 M 9 M 2 3 M 6 MH 5 6 3 MH 3 HM 4 3 6 MH 6 HM 3 6 MHH
 ======
-# M/H: 879 / 51
-# Last rebuild:   iter 7  num_configs 396
+# M/H: 576 / 54
+# Last rebuild:   iter 6  num_configs 158
 id.c:215, id.c:216, id.c:217, id.c:227, id.c:271, id.c:272, id.c:274, id.c:283, id.c:292, id.c:304, id.c:307, id.c:432, id.c:434, id.c:455, id.c:462, id.c:464, 
 -
-(let ((a!1 (and (= -G off)
-                (or (and (= -u on) (= -g off))
-                    (and (= -r off) (= -z off) (= -n off) (= -g off))
-                    (and (= -u off) (= -g on))))))
+(let ((a!1 (and (= -u off)
+                (or (= -G on) (and (= -G off) (= -n off) (= -r off) (= -z off))))))
+(let ((a!2 (and (= -g off) (or (and (= -u on) (= -G off)) a!1))))
   (and (= --version off)
        (= --help off)
        (= -Z off)
-       (or a!1 (and (= -G on) (= -u off) (= -g off)))))
+       (or (and (= -g on) (= -G off) (= -u off)) a!2))))
 -
-9 M 8 M 1 M 3 6 M 2 MH 5 6 2 MH 2 HM 7 0 2 6 MH 6 HM 2 6 MH 6 HM 4 2 6 MH 6 HM 2 6 MHH
+9 M 8 M 1 M 2 3 M 6 MH 6 3 MH 3 H 4 M 5 M 7 MH
 ======
-# M/H: 924 / 12
-# Last rebuild:   iter 5  num_configs 151
+# M/H: 618 / 13
+# Last rebuild:   iter 5  num_configs 132
 id.c:277, id.c:278, id.c:279, 
 -
-(and (= -G off)
-     (= -r off)
-     (= -Z off)
-     (= --help off)
+(and (= -r off)
      (= --version off)
+     (= -G off)
+     (= -Z off)
      (= -g off)
+     (= --help off)
      (or (= -u on) (and (= -n off) (= -z off))))
 -
-3 M 5 M 1 M 8 M 9 M 2 M 6 H 4 M 7 MH
+5 M 9 M 3 M 1 M 2 M 8 M 6 H 4 M 7 MH
 ======
-# M/H: 927 / 18
-# Last rebuild:   iter 4  num_configs 116
+# M/H: 613 / 16
+# Last rebuild:   iter 6  num_configs 160
 id.c:335, id.c:337, id.c:339, id.c:350, id.c:351, id.c:352, id.c:435, 
 -
 (and (= -u on)
      (= -G off)
-     (= -Z off)
      (= -g off)
+     (= --help off)
      (= --version off)
-     (= --help off))
+     (= -Z off))
 -
-6 3 M 1 M 2 M 9 M 8 MHM
+6 3 M 2 M 8 M 9 M 1 MHM
 ======
-# M/H: 1028 / 12
-# Last rebuild:   iter 6  num_configs 285
+# M/H: 627 / 8
+# Last rebuild:   iter 6  num_configs 164
 id.c:341, id.c:342, 
 -
 (and (= -u on)
      (= -n on)
-     (= --help off)
      (= -G off)
-     (= -Z off)
      (= -g off)
-     (= --version off))
+     (= -Z off)
+     (= --version off)
+     (= --help off))
 -
-6 4 8 M 3 M 1 M 2 M 9 MHMM
+6 4 3 M 2 M 1 M 9 M 8 MHMM
 ======
-# M/H: 741 / 254
-# Last rebuild:   iter 3  num_configs 98
+# M/H: 490 / 179
+# Last rebuild:   iter 3  num_configs 77
 id.c:102, id.c:113, id.c:114, id.c:115, id.c:119, id.c:121, id.c:181, id.c:90, id.c:92, id.c:96, id.c:97, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
 -
 (and (= --help on) (= -Z off))
 -
 8 1 MHM
 ======
-# M/H: 729 / 266
-# Last rebuild:   iter 3  num_configs 99
+# M/H: 482 / 190
+# Last rebuild:   iter 3  num_configs 79
 id.c:169, id.c:170, id.c:171, 
 -
 (and (= -r on) (= -Z off))
 -
 5 1 MHM
 ======
-# M/H: 943 / 57
-# Last rebuild:   iter 3  num_configs 103
+# M/H: 605 / 31
+# Last rebuild:   iter 5  num_configs 137
+id.c:286, id.c:287, id.c:288, 
+-
+(let ((a!1 (and (= -G off)
+                (or (and (= -u on) (= -r on))
+                    (and (= -u off) (= -n off) (= -r off) (= -z off))))))
+  (and (= -g off)
+       (= --version off)
+       (= -Z off)
+       (= --help off)
+       (or (and (= -G on) (= -u off)) a!1)))
+-
+2 M 9 M 1 M 8 M 3 6 MH 6 5 HM 4 M 5 M 7 MH
+======
+# M/H: 622 / 56
+# Last rebuild:   iter 3  num_configs 85
 id.c:198, 
 -
 (and (= -u off)
+     (= --version off)
      (= -Z off)
      (= --help off)
-     (= --version off)
      (or (= -g off) (= -G off)))
 -
-6 M 1 M 8 M 9 M 2 3 MHH
+6 M 9 M 1 M 8 M 2 3 MHH
 ======
-# M/H: 909 / 36
-# Last rebuild:   iter 4  num_configs 118
+# M/H: 600 / 37
+# Last rebuild:   iter 4  num_configs 100
 id.c:199, 
 -
-(and (= -u off) (= -Z off) (= -g off) (= --help off) (= --version off))
+(and (= -u off) (= -g off) (= -Z off) (= --version off) (= --help off))
 -
-6 M 1 M 2 M 8 M 9 MH
+6 M 2 M 1 M 9 M 8 MH
 ======
-# M/H: 883 / 34
-# Last rebuild:   iter 9  num_configs 611
+# M/H: 618 / 21
+# Last rebuild:   iter 4  num_configs 102
+id.c:200, 
+-
+(and (= -u off)
+     (= -g off)
+     (= -G off)
+     (= -Z off)
+     (= --version off)
+     (= --help off))
+-
+6 M 2 M 3 M 1 M 9 M 8 MH
+======
+# M/H: 621 / 2
+# Last rebuild:   iter 8  num_configs 179
+id.c:207, 
+-
+(and (= -z on)
+     (= -n off)
+     (= -g off)
+     (= -u off)
+     (= -r off)
+     (= --version off)
+     (= -Z off)
+     (= -G off)
+     (= --help off))
+-
+7 4 M 2 M 6 M 5 M 9 M 1 M 3 M 8 MHM
+======
+# M/H: 572 / 61
+# Last rebuild:   iter 6  num_configs 162
+id.c:195, 
+-
+(let ((a!1 (or (and (= -G on) (= -u on) (= -Z off) (= --help off))
+               (and (= -g on)
+                    (= -Z off)
+                    (= --help off)
+                    (or (= -G on) (= -u on))))))
+  (and (= --version off) a!1))
+-
+9 M 2 1 M 8 M 6 H 3 HM 3 6 1 M 8 MHMM
+======
+# M/H: 591 / 33
+# Last rebuild:   iter 7  num_configs 171
 id.c:275, id.c:284, id.c:294, id.c:295, id.c:296, id.c:299, id.c:300, id.c:301, id.c:442, 
 -
-(let ((a!1 (and (= -g off)
-                (or (= -G on) (and (= -G off) (= -n off) (= -r off) (= -z off))))))
+(let ((a!1 (and (= -G off)
+                (or (= -g on) (and (= -g off) (= -n off) (= -r off) (= -z off))))))
   (and (= -u off)
        (= --version off)
        (= --help off)
        (= -Z off)
-       (or (and (= -g on) (= -G off)) a!1)))
+       (or (and (= -G on) (= -g off)) a!1)))
 -
-6 M 9 M 8 M 1 M 2 3 MH 3 H 4 M 5 M 7 MH
+6 M 9 M 8 M 1 M 3 2 MH 2 H 4 M 5 M 7 MH
 ======
-# M/H: 900 / 28
-# Last rebuild:   iter 7  num_configs 400
-id.c:286, id.c:287, id.c:288, 
--
-(let ((a!1 (and (= -u off)
-                (or (= -G on) (and (= -G off) (= -n off) (= -r off) (= -z off))))))
-  (and (= --version off)
-       (= -g off)
-       (= --help off)
-       (= -Z off)
-       (or (and (= -u on) (= -r on) (= -G off)) a!1)))
--
-9 M 2 M 8 M 1 M 6 5 3 MHM 3 H 4 M 5 M 7 MH
-======
-# M/H: 933 / 18
-# Last rebuild:   iter 5  num_configs 164
+# M/H: 623 / 18
+# Last rebuild:   iter 5  num_configs 141
 id.c:444, 
 -
 (and (= -u off)
      (= -g off)
-     (= --help off)
-     (= -Z off)
-     (= --version off)
-     (or (= -G on) (and (= -n off) (= -r off) (= -z off))))
+     (or (and (= -G on) (= --version off) (= -Z off) (= --help off))
+         (and (= -z off)
+              (= -r off)
+              (= -n off)
+              (= -Z off)
+              (= --help off)
+              (= --version off))))
 -
-6 M 2 M 8 M 1 M 9 M 3 H 4 M 5 M 7 MH
+6 M 2 M 3 9 M 1 M 8 MH 7 M 5 M 4 M 1 M 8 M 9 MH
 ======
-# M/H: 941 / 21
-# Last rebuild:   iter 4  num_configs 135
+# M/H: 630 / 16
+# Last rebuild:   iter 5  num_configs 147
 id.c:445, id.c:446, 
 -
 (and (= -G on)
      (= -g off)
      (= -u off)
-     (= -Z off)
      (= --version off)
-     (= --help off))
--
-3 2 M 6 M 1 M 9 M 8 MHM
-======
-# M/H: 873 / 65
-# Last rebuild:   iter 5  num_configs 149
-id.c:195, 
--
-(let ((a!1 (or (and (= -u on) (= -G on) (= --version off))
-               (and (= -g on) (= --version off) (or (= -G on) (= -u on))))))
-  (and (= --help off) (= -Z off) a!1))
--
-8 M 1 M 2 9 M 3 H 6 HM 6 3 9 MHMM
-======
-# M/H: 941 / 24
-# Last rebuild:   iter 4  num_configs 138
-id.c:200, 
--
-(and (= -G off)
-     (= -u off)
-     (= --version off)
-     (= -g off)
      (= -Z off)
      (= --help off))
 -
-3 M 6 M 9 M 2 M 1 M 8 MH
+3 2 M 6 M 9 M 1 M 8 MHM
 ======
-# M/H: 949 / 18
-# Last rebuild:   iter 4  num_configs 140
+# M/H: 637 / 15
+# Last rebuild:   iter 4  num_configs 113
 id.c:203, 
 -
-(and (= -G off)
+(and (= -g off)
      (= -u off)
-     (= --help off)
-     (= -g off)
      (= --version off)
+     (= -G off)
+     (= --help off)
      (= -Z off)
      (or (= -n on) (= -r on)))
 -
-3 M 6 M 8 M 2 M 9 M 1 M 5 H 4 HM
+2 M 6 M 9 M 3 M 8 M 1 M 4 H 5 HM
 ======
-# M/H: 957 / 17
-# Last rebuild:   iter 4  num_configs 143
+# M/H: 621 / 17
+# Last rebuild:   iter 6  num_configs 167
 id.c:443, 
 -
 (and (= -g on)
      (= -G off)
      (= -u off)
      (= --version off)
-     (= --help off)
-     (= -Z off))
--
-2 3 M 6 M 9 M 8 M 1 MHM
-======
-# M/H: 1125 / 2
-# Last rebuild:   iter 6  num_configs 374
-id.c:220, id.c:221, id.c:314, id.c:317, id.c:357, id.c:362, id.c:363, id.c:364, id.c:365, id.c:367, id.c:368, id.c:369, id.c:370, id.c:372, id.c:380, id.c:392, id.c:395, id.c:397, id.c:398, id.c:409, id.c:410, id.c:411, id.c:413, id.c:414, id.c:415, id.c:416, id.c:417, id.c:418, id.c:420, id.c:425, id.c:447, id.c:450, 
--
-(and (= -z off)
-     (= -n off)
-     (= -r off)
-     (= --help off)
-     (= -g off)
-     (= -u off)
-     (= -G off)
      (= -Z off)
-     (= --version off))
+     (= --help off))
 -
-7 M 4 M 5 M 8 M 2 M 6 M 3 M 1 M 9 MH
+2 3 M 6 M 9 M 1 M 8 MHM
 ======
-# M/H: 922 / 10
-# Last rebuild:   iter 7  num_configs 403
+# M/H: 617 / 11
+# Last rebuild:   iter 5  num_configs 128
 id.c:325, id.c:328, 
 -
 (and (= -n off)
+     (= -g off)
+     (= -Z off)
      (= -G off)
      (= --help off)
-     (= -g off)
      (= --version off)
-     (= -Z off)
      (or (= -u on) (and (= -r off) (= -z off))))
 -
-4 M 3 M 8 M 2 M 9 M 1 M 6 H 5 M 7 MH
+4 M 2 M 1 M 3 M 8 M 9 M 6 H 5 M 7 MH
 ======
-# M/H: 1141 / 2
-# Last rebuild:   iter 6  num_configs 392
-id.c:207, 
+# M/H: 648 / 2
+# Last rebuild:   iter 5  num_configs 151
+id.c:220, id.c:221, id.c:314, id.c:317, id.c:357, id.c:362, id.c:363, id.c:364, id.c:365, id.c:367, id.c:368, id.c:369, id.c:370, id.c:372, id.c:380, id.c:392, id.c:395, id.c:397, id.c:398, id.c:409, id.c:410, id.c:411, id.c:413, id.c:414, id.c:415, id.c:416, id.c:417, id.c:418, id.c:420, id.c:425, id.c:447, id.c:450, 
 -
-(and (= -z on)
-     (= -u off)
-     (= -g off)
+(and (= -z off)
      (= --version off)
-     (= -n off)
      (= -r off)
+     (= -G off)
+     (= -n off)
+     (= -g off)
      (= -Z off)
-     (= --help off)
-     (= -G off))
+     (= -u off)
+     (= --help off))
 -
-7 6 M 2 M 9 M 4 M 5 M 1 M 8 M 3 MHM
+7 M 9 M 5 M 3 M 4 M 2 M 1 M 6 M 8 MH
 ======

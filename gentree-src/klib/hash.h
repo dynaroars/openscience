@@ -1,5 +1,5 @@
 //
-// Created on 3/5/2020.
+// Created by AUTHOR on 3/5/2020.
 //
 
 #ifndef IGEN4_HASH_H

@@ -1,5 +1,5 @@
 //
-// Created on 3/7/2020.
+// Created by AUTHOR on 3/7/2020.
 //
 
 #ifndef IGEN4_PROGRAMS_H

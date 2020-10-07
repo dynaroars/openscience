@@ -1,6 +1,6 @@
-# ./igen4 -J2 -cr -GF 2/grin --full -O res/grin/full.txt
+# ./igen4 -J2 -crwx -GF 2/grin -O res/grin/full.txt --full -j16
 # seed = 123, repeat_id = 0, thread_id = 0
-#  4194304  332   17 | 4194304    -1 |  0    1 |   113    69      0 | df91149cd89b466ab47c937ac5d33dd2
+#  4194304  332   17 | 20853   548 |  0    1 | 36186 36130 573350 | df91149cd89b466ab47c937ac5d33dd2
 ======
 # M/H: 0 / 4194304
 # Last rebuild:   iter 0  num_configs 4194304

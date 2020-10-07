@@ -1,6 +1,6 @@
-# ./igen4 -J2 -crwx -GF 2/ln --rep 11 -O res/ln/full.txt --full -j16
-# seed = 133, repeat_id = 10, thread_id = 0
-#    10240  171   25 | 10240    -1 | 10    1 |     0     0      0 | 6b50d30ca57e16e0e942da6a7090592d
+# ./igen4 -J2 -crwx -GF 2/ln -O res/ln/full.txt --full -j64
+# seed = 123, repeat_id = 0, thread_id = 0
+#    10240  171   25 |  9279   276 |  0    1 |     0     0     14 | 6b50d30ca57e16e0e942da6a7090592d
 ======
 # M/H: 5120 / 5120
 # Last rebuild:   iter 0  num_configs 10240

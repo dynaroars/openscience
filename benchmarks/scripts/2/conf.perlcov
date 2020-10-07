@@ -1,0 +1,27 @@
+lang perl
+
+var prefix              /mnt/ramdisk/perlcov
+var prof_dir            {prefix}/prof_{tid}
+var testfiles_dir       {prefix}/testfiles_{tid}
+var wd_dir              {prefix}/wd_{tid}
+
+var testfiles_srcdir    /home/USER/projects/igen/wd/2/testfiles
+
+###
+
+cp_replace_folder    	{testfiles_srcdir}           {testfiles_dir}
+
+var bindir   			/home/USER/apps/bench_progs/perl/bin
+var testdir  			{testfiles_dir}
+
+####
+
+perl_bin				/usr/bin/perl
+cov_bin	            	/usr/local/bin/cover
+cov_wd 	            	{wd_dir}
+
+loc_trim_prefix         {bindir}/
+
+####
+
+wd           {wd_dir}

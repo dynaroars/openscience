@@ -1,6 +1,6 @@
-# ./igen4 -J2 -crwx -GF 2/date --rep 11 -O res/date/full.txt --full -j16
-# seed = 133, repeat_id = 10, thread_id = 0
-#    17280  125   17 | 17280    -1 | 10    1 |     0     0      0 | faad20a1b5063389f38a4262f9f26092
+# ./igen4 -J2 -crwx -GF 2/date -O res/date/full.txt --full -j64
+# seed = 123, repeat_id = 0, thread_id = 0
+#    17280  125   17 | 17273    -1 |  0    1 |     0     0      0 | faad20a1b5063389f38a4262f9f26092
 ======
 # M/H: 15480 / 1800
 # Last rebuild:   iter 0  num_configs 17280

@@ -1,6 +1,6 @@
-# ./igen4 -J2 -crwx -GF 2/id --rep 11 -O res/id/full.txt --full -j16
-# seed = 133, repeat_id = 10, thread_id = 0
-#     1024  150   32 |  1024    -1 | 10    1 |     0     0      0 | 2cf2d59b584f79b42941ba80ed3b78de
+# ./igen4 -J2 -crwx -GF 2/id -O res/id/full.txt --full -j64
+# seed = 123, repeat_id = 0, thread_id = 0
+#     1024  150   32 |  1020    -1 |  0    1 |     0     0      0 | 2cf2d59b584f79b42941ba80ed3b78de
 ======
 # M/H: 0 / 1024
 # Last rebuild:   iter 0  num_configs 1024

@@ -1,5 +1,5 @@
 //
-// Created on 3/14/20.
+// Created by USER on 3/14/20.
 //
 
 #include "Algo.h"
@@ -451,10 +451,16 @@ public:
 
         int cnt_singular = 0, cnt_and = 0, cnt_or = 0, cnt_mixed = 0;
         int cnt_pure = 0, cnt_mix_ok = 0, cnt_mix_fail = 0;
+        vec<int> vec_len;
         for (const auto &p : ma) {
             const auto &dat = p.second;
             if (!dat.is_first) continue;
             const expr &e = dat.e;
+
+            set<str> vars;
+            collect_vars(vars, e);
+            vec_len.push_back(sz(vars));
+
             VLOG(10, "{}\n {}", p.first, e.to_string());
             CHECK(e.is_app());
             if (e.is_const() || e.is_eq()) {
@@ -487,6 +493,8 @@ public:
         RET_PARAM(cnt_mix_fail);
 #undef RET_PARAM
         ret["cnt_total"] = cnt_singular + cnt_and + cnt_or + cnt_mixed;
+        ret["max_len"] = (int) *std::max_element(vec_len.begin(), vec_len.end());
+        ret["median_len"] = (int) vec_median(vec_len);
 
 #define RET_PARAM(type, p, pos) ret[p] = boost::lexical_cast<type>(params.at(pos))
         RET_PARAM(int, "n_configs", 1);
@@ -683,6 +691,51 @@ public:
         return ret;
     }
 
+    bool is_var(const expr &e) {
+        return e.is_const() && e.decl().decl_kind() == Z3_OP_UNINTERPRETED;
+    }
+
+    void collect_vars(set<str> &res, const expr &e) {
+        if (is_var(e)) {
+            res.insert(e.decl().name().str());
+        } else {
+            int nargs = e.num_args();
+            for (int i = 0; i < nargs; ++i) {
+                collect_vars(res, e.arg(i));
+            }
+        }
+    }
+
+    map<str, boost::any> run_analyze_complexity() {
+        auto finp = get_inp();
+        CHECK_EQ(finp.size(), 1) << "Need 1 input file";
+        auto ma = read_file(finp.at(0));
+
+        vec<int> samples;
+        int sum = 0, count = 0;
+        for (const auto &p : ma) {
+            const auto &d = p.second;
+            if (!d.is_first) continue;
+
+            set<str> s;
+            collect_vars(s, d.e);
+            sum += sz(s), count++;
+            samples.push_back(sz(s));
+        }
+
+        double avg = double(sum) / count;
+        double dev = 0;
+        for (int x : samples) {
+            dev += (x - avg) * (x - avg);
+        }
+        dev = std::sqrt(dev / count);
+
+        map<str, boost::any> ret;
+        ret["avg_len"] = avg;
+        ret["dev_len"] = dev;
+        return ret;
+    }
+
 
     vec<str> get_inp() {
         str inp = ctx()->get_option_as<str>("input");
@@ -708,6 +761,8 @@ public:
                 return run_analyze_3();
             case 4:
                 return run_analyze_cmin();
+            case 5:
+                return run_analyze_complexity();
             default:
                 CHECK(0);
         }

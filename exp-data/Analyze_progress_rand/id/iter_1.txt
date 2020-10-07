@@ -1,4 +1,4 @@
-# ./igen4 -J2 -cr -F 2/id -O res/Analyze_progress_rand/id/iter_{iter}.txt --rand-each-iteration 8,36,117,160,185,192,196,407,615
+# ./igen4 -J2 -cr -F 2/id -O res/Analyze_progress_rand/id/iter_{iter}.txt --rand-each-iteration 8,31,84,120,148,175,195,345,349,491,494,631,755
 # seed = 123, repeat_id = 0, thread_id = 0
 #        8   64   11 |     8    -1 |  0    1 |     0     0      0 | 56e015eeb4c53fb863bda214c56d9e60
 ======

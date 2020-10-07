@@ -1,8 +1,8 @@
-# ./igen4 -J2 -cr -F 2/ln -O res/Analyze_progress_rand/ln/iter_{iter}.txt --rand-each-iteration 198,700,1310,1879,2434,2938
+# ./igen4 -J2 -cr -F 2/ln -O res/Analyze_progress_rand/ln/iter_{iter}.txt --rand-each-iteration 150,520,938,1339,1723,2079
 # seed = 123, repeat_id = 0, thread_id = 0
-#     1310  171   24 |  1310    -1 |  0    3 |     0     0      0 | 8cdbf324e0238930bc573f2e6e12818e
+#      938  171   24 |   938    -1 |  0    3 |     0     0      0 | 53c92fef96deec805a3ee0a496e07974
 ======
-# M/H: 668 / 642
+# M/H: 472 / 466
 # Last rebuild:   iter -1  num_configs -1
 ln.c:403, ln.c:405, ln.c:409, ln.c:416, ln.c:427, ln.c:429, ln.c:437, ln.c:446, ln.c:453, ln.c:454, ln.c:455, ln.c:456, ln.c:461, ln.c:463, ln.c:554, system.h:588, system.h:590, system.h:593, system.h:616, system.h:618, system.h:625, system.h:631, system.h:634, system.h:636, system.h:646, system.h:647, system.h:649, system.h:650, system.h:652, system.h:655, system.h:659, system.h:660, system.h:666, system.h:669, system.h:671, system.h:673, 
 -
@@ -10,7 +10,7 @@ ln.c:403, ln.c:405, ln.c:409, ln.c:416, ln.c:427, ln.c:429, ln.c:437, ln.c:446, 
 -
 10 HM
 ======
-# M/H: 0 / 1310
+# M/H: 0 / 938
 # Last rebuild:   iter -1  num_configs -1
 ln.c:467, ln.c:471, ln.c:472, ln.c:473, ln.c:474, ln.c:476, ln.c:479, ln.c:482, ln.c:483, ln.c:487, ln.c:489, ln.c:490, ln.c:492, ln.c:495, 
 -
@@ -18,7 +18,7 @@ true
 -
 H
 ======
-# M/H: 669 / 641
+# M/H: 482 / 456
 # Last rebuild:   iter -1  num_configs -1
 ln.c:510, ln.c:511, ln.c:512, ln.c:513, 
 -
@@ -26,7 +26,7 @@ ln.c:510, ln.c:511, ln.c:512, ln.c:513,
 -
 3 HM
 ======
-# M/H: 635 / 675
+# M/H: 450 / 488
 # Last rebuild:   iter -1  num_configs -1
 ln.c:514, ln.c:515, ln.c:516, 
 -
@@ -34,7 +34,7 @@ ln.c:514, ln.c:515, ln.c:516,
 -
 4 HM
 ======
-# M/H: 660 / 650
+# M/H: 469 / 469
 # Last rebuild:   iter -1  num_configs -1
 ln.c:517, ln.c:518, ln.c:519, 
 -
@@ -42,7 +42,7 @@ ln.c:517, ln.c:518, ln.c:519,
 -
 5 HM
 ======
-# M/H: 680 / 630
+# M/H: 499 / 439
 # Last rebuild:   iter -1  num_configs -1
 ln.c:520, ln.c:521, ln.c:522, 
 -
@@ -50,7 +50,7 @@ ln.c:520, ln.c:521, ln.c:522,
 -
 6 HM
 ======
-# M/H: 631 / 679
+# M/H: 456 / 482
 # Last rebuild:   iter -1  num_configs -1
 ln.c:523, ln.c:524, ln.c:525, 
 -
@@ -58,7 +58,7 @@ ln.c:523, ln.c:524, ln.c:525,
 -
 7 HM
 ======
-# M/H: 659 / 651
+# M/H: 467 / 471
 # Last rebuild:   iter -1  num_configs -1
 ln.c:526, ln.c:527, ln.c:528, 
 -
@@ -66,7 +66,7 @@ ln.c:526, ln.c:527, ln.c:528,
 -
 8 HM
 ======
-# M/H: 632 / 678
+# M/H: 457 / 481
 # Last rebuild:   iter -1  num_configs -1
 ln.c:547, ln.c:548, ln.c:549, 
 -
@@ -74,7 +74,7 @@ ln.c:547, ln.c:548, ln.c:549,
 -
 9 HM
 ======
-# M/H: 127 / 1183
+# M/H: 93 / 845
 # Last rebuild:   iter -1  num_configs -1
 ln.c:497, ln.c:498, ln.c:499, ln.c:501, 
 -
@@ -86,7 +86,7 @@ ln.c:497, ln.c:498, ln.c:499, ln.c:501,
 -
 0 1 HMHHHH
 ======
-# M/H: 272 / 1038
+# M/H: 194 / 744
 # Last rebuild:   iter -1  num_configs -1
 ln.c:500, 
 -
@@ -97,7 +97,7 @@ ln.c:500,
 -
 0 MHHHH
 ======
-# M/H: 995 / 315
+# M/H: 717 / 221
 # Last rebuild:   iter -1  num_configs -1
 ln.c:562, ln.c:563, ln.c:565, ln.c:571, 
 -
@@ -105,7 +105,7 @@ ln.c:562, ln.c:563, ln.c:565, ln.c:571,
 -
 11 M 10 MH
 ======
-# M/H: 1224 / 86
+# M/H: 876 / 62
 # Last rebuild:   iter -1  num_configs -1
 ln.c:572, 
 -
@@ -113,7 +113,7 @@ ln.c:572,
 -
 11 M 10 M 7 8 MHM
 ======
-# M/H: 957 / 353
+# M/H: 687 / 251
 # Last rebuild:   iter -1  num_configs -1
 ln.c:555, 
 -
@@ -121,7 +121,7 @@ ln.c:555,
 -
 10 M 11 HM
 ======
-# M/H: 690 / 620
+# M/H: 487 / 451
 # Last rebuild:   iter -1  num_configs -1
 ln.c:506, ln.c:507, ln.c:508, ln.c:509, 
 -
@@ -129,7 +129,7 @@ ln.c:506, ln.c:507, ln.c:508, ln.c:509,
 -
 2 HM
 ======
-# M/H: 1155 / 155
+# M/H: 827 / 111
 # Last rebuild:   iter -1  num_configs -1
 ln.c:123, ln.c:125, 
 -
@@ -137,7 +137,7 @@ ln.c:123, ln.c:125,
 -
 11 M 7 M 10 MH
 ======
-# M/H: 1081 / 229
+# M/H: 779 / 159
 # Last rebuild:   iter -1  num_configs -1
 ln.c:168, ln.c:171, ln.c:173, ln.c:186, ln.c:190, ln.c:191, ln.c:192, ln.c:193, ln.c:194, ln.c:195, ln.c:199, ln.c:209, ln.c:344, ln.c:348, ln.c:351, ln.c:397, ln.c:398, ln.c:399, ln.c:574, ln.c:576, ln.c:577, ln.c:580, ln.c:597, ln.c:604, ln.c:605, ln.c:606, ln.c:609, ln.c:610, ln.c:611, ln.c:612, ln.c:613, ln.c:614, ln.c:626, ln.c:628, ln.c:629, ln.c:636, ln.c:638, ln.c:639, ln.c:642, ln.c:647, ln.c:665, ln.c:666, ln.c:669, ln.c:670, ln.c:672, ln.c:673, ln.c:674, ln.c:680, 
 -
@@ -145,7 +145,7 @@ ln.c:168, ln.c:171, ln.c:173, ln.c:186, ln.c:190, ln.c:191, ln.c:192, ln.c:193, 
 -
 11 M 10 M 7 8 HMH
 ======
-# M/H: 1228 / 82
+# M/H: 878 / 60
 # Last rebuild:   iter -1  num_configs -1
 ln.c:174, ln.c:175, ln.c:349, 
 -
@@ -153,7 +153,7 @@ ln.c:174, ln.c:175, ln.c:349,
 -
 11 M 7 M 10 M 8 MH
 ======
-# M/H: 1191 / 119
+# M/H: 858 / 80
 # Last rebuild:   iter -1  num_configs -1
 ln.c:353, ln.c:354, ln.c:355, ln.c:370, ln.c:371, 
 -
@@ -164,7 +164,7 @@ ln.c:353, ln.c:354, ln.c:355, ln.c:370, ln.c:371,
 -
 11 M 10 M 9 7 8 HMHM
 ======
-# M/H: 1236 / 74
+# M/H: 890 / 48
 # Last rebuild:   iter -1  num_configs -1
 ln.c:132, ln.c:136, ln.c:138, ln.c:139, ln.c:141, ln.c:142, ln.c:145, ln.c:147, ln.c:154, ln.c:155, ln.c:156, ln.c:158, ln.c:211, ln.c:218, ln.c:219, ln.c:222, ln.c:223, ln.c:333, ln.c:334, ln.c:336, 
 -
@@ -172,7 +172,7 @@ ln.c:132, ln.c:136, ln.c:138, ln.c:139, ln.c:141, ln.c:142, ln.c:145, ln.c:147, 
 -
 11 M 8 10 M 7 HMM
 ======
-# M/H: 1163 / 147
+# M/H: 839 / 99
 # Last rebuild:   iter -1  num_configs -1
 ln.c:172, 
 -
@@ -180,7 +180,7 @@ ln.c:172,
 -
 11 M 8 10 MHM
 ======
-# M/H: 1253 / 57
+# M/H: 902 / 36
 # Last rebuild:   iter -1  num_configs -1
 ln.c:221, 
 -
@@ -192,35 +192,34 @@ ln.c:221,
 -
 11 M 8 10 M 7 2 3 HMHMM
 ======
-# M/H: 1239 / 71
+# M/H: 891 / 47
 # Last rebuild:   iter -1  num_configs -1
 ln.c:226, ln.c:229, ln.c:234, 
 -
-(let ((a!1 (and (= --backup none) (or (= -i on) (and (= -i off) (= -f on))))))
-  (and (= --version off)
-       (= -s on)
-       (= --help off)
-       (= -r on)
-       (or (= --backup off)
-           (= --backup numbered)
-           (= --backup existing)
-           (= --backup simple)
-           a!1)))
+(let ((a!1 (and (= --backup none) (or (= -f on) (and (= -f off) (= -i on))))))
+(let ((a!2 (or (= -P on)
+               (and (= -P off)
+                    (or (= --backup numbered)
+                        (= --backup existing)
+                        (= --backup simple)
+                        a!1)))))
+  (and (= --version off) (= -s on) (= --help off) (= -r on) a!2)))
 -
-11 M 8 10 M 7 0 H 3 H 2 HMHHHMM
+11 M 8 10 M 7 6 H 0 M 2 H 3 HMHHHMM
 ======
-# M/H: 1098 / 212
+# M/H: 788 / 150
 # Last rebuild:   iter -1  num_configs -1
 ln.c:637, 
 -
-(let ((a!1 (or (= --backup none)
-               (= --backup numbered)
-               (= --backup existing)
-               (= --backup simple)
-               (and (= --backup off) (= -b on)))))
+(let ((a!1 (or (= -b on)
+               (and (= -b off)
+                    (or (= --backup none)
+                        (= --backup numbered)
+                        (= --backup existing)
+                        (= --backup simple))))))
   (and (= --version off)
        (= --help off)
-       (or (and (= -s on) a!1) (and (= -s off) (= -r off) a!1))))
+       (or (and (= -r on) (= -s on)) (and (= -r off) a!1))))
 -
-11 M 10 M 8 0 1 HMHHHH 7 M 0 1 HMHHHH
+11 M 10 M 7 8 HM 1 H 0 MHHHH
 ======
